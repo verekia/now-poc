@@ -1,0 +1,9 @@
+{
+  "extends": "@sharyn/tsconfig",
+  "compilerOptions": {
+    "baseUrl": "src",
+    "sourceMap": true,
+    "noEmit": false
+  },
+  "include": ["src"]
+}

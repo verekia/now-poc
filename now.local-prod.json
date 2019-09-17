@@ -1,0 +1,11 @@
+{
+  "build": {
+    "env": {
+      "STAGE": "local-prod"
+    }
+  },
+  "routes": [
+    { "src": "/static/(.*)", "dest": "/static/$1" },
+    { "src": "/(.*)", "dest": "/index.html"}
+  ]
+}

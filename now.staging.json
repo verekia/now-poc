@@ -1,0 +1,12 @@
+{
+  "name": "now-poc-staging",
+  "build": {
+    "env": {
+      "STAGE": "staging"
+    }
+  },
+  "routes": [
+    { "src": "/static/(.*)", "dest": "/static/$1" },
+    { "src": "/(.*)", "dest": "/index.html"}
+  ]
+}
